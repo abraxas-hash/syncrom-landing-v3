@@ -20,10 +20,6 @@ const siteUrl =
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
       : "http://localhost:3000";
 
-const title = "Syncrom AI — Automatización con IA + n8n para tu negocio";
-const description =
-  "Automatizamos negocios hispanohablantes con n8n e Inteligencia Artificial. Libera 20+ horas semanales sin contratar más personal. Consulta gratuita disponible.";
-
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Syncrom AI | Automatización de negocios con n8n e Inteligencia Artificial",

@@ -11,6 +11,7 @@ export function CustomCursor() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     
     // Check if it's a touch device or no fine pointer
@@ -66,7 +67,7 @@ export function CustomCursor() {
     window.addEventListener("mousedown", onMouseDown);
     window.addEventListener("mouseup", onMouseUp);
 
-    let animId = requestAnimationFrame(animate);
+    const animId = requestAnimationFrame(animate);
 
     return () => {
       window.removeEventListener("mousemove", onMouseMove);

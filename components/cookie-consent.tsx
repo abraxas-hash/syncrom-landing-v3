@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { cn } from "@/lib/utils";
 import { ShieldCheck, X, ChevronRight } from "lucide-react";
 
 export function CookieConsent() {
@@ -9,6 +8,7 @@ export function CookieConsent() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     // Show only if consent hasn't been given
     const consent = localStorage.getItem("syncrom_cookie_consent");

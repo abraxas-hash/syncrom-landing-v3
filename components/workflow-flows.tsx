@@ -203,7 +203,6 @@ function Flow01() {
   const cy = 115, h = 58, w = 150;
   const x1 = 15, x2 = 215, x3 = 415;
   const r1 = x1+w, r2 = x2+w, r3 = x3+w;          // 165, 365, 565
-  const ifT = (x3+0) + 0;  // y of IF true output
   const yIF = cy - h/2;    // 86
   const ifTy = yIF + h/3;  // 86+19=105
   const ifFy = yIF + 2*h/3; // 86+38=124
