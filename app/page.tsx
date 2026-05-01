@@ -7,7 +7,8 @@ import { WorkflowPreview } from "@/components/workflow-preview";
 import { ROICalculator } from "@/components/roi-calculator";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { ArrowRight, Mail, MessageCircle, Database, Bell, Calendar, Bot, Zap, Cloud, Workflow, Link2, ChevronRight, Send } from "lucide-react";
+import { ArrowRight, Mail, MessageCircle, Database, Bell, Calendar, Bot, Zap, Cloud, Workflow, Link2, ChevronRight, Send, FolderCode } from "lucide-react";
+import { PortfolioSection } from "@/components/portfolio-section";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
           {[
             { href: "#productos", label: "n8n" },
             { href: "#servicios", label: "Servicios" },
+            { href: "#portafolio", label: "Portafolio" },
             { href: "#proceso", label: "Proceso" },
             { href: "#faq", label: "FAQ" },
             { href: "#contacto", label: "Contacto" },
@@ -522,6 +524,9 @@ export default function Home() {
         {/* Grid: workflow list + preview */}
         <WorkflowPreview />
       </Container>
+
+      {/* ─── SECCIÓN: PORTAFOLIO / LABORATORIO ───────────────────── */}
+      <PortfolioSection />
 
       {/* ─── SECCIÓN 5: CÓMO FUNCIONA ─────────────────────────────── */}
       <Container
