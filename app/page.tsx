@@ -115,14 +115,11 @@ export default function Home() {
             <div className="h-1 w-24 bg-primary" />
 
             <div className="flex flex-wrap gap-4 items-center">
-              <Link href="#contacto" className={cn("uppercase", buttonVariants({ size: "lg" }))}>
-                Agenda Consulta Gratis <ArrowRight className="size-4" />
+              <Link href="https://cool-contrast-formulario.vercel.app" target="_blank" className={cn("uppercase", buttonVariants({ size: "lg" }), "bg-gradient-to-r from-primary to-accent border-none text-white shadow-lg hover:opacity-90")}>
+                Haz el Diagnóstico Interactivo <Bot className="size-4 ml-2" />
               </Link>
-              <Link
-                href="#productos"
-                className={cn(buttonVariants({ variant: "outline", size: "lg" }), "uppercase font-mono text-xs border-primary/50 hover:bg-primary/10 hover:text-primary hover:border-primary")}
-              >
-                ¿Qué es n8n?
+              <Link href="#contacto" className={cn("uppercase", buttonVariants({ variant: "outline", size: "lg" }), "border-primary/30")}>
+                Agenda Consulta Gratis <ArrowRight className="size-4 ml-2" />
               </Link>
             </div>
 
