@@ -326,6 +326,12 @@ export default function Home() {
                 </li>
               ))}
             </ul>
+            
+            <div className="pt-4">
+              <Link href="https://cool-contrast-formulario.vercel.app" target="_blank" className={cn("uppercase", buttonVariants({ size: "lg" }), "bg-gradient-to-r from-primary to-accent border-none text-white shadow-lg hover:opacity-90 w-full sm:w-auto")}>
+                Inicia tu Diagnóstico <Bot className="size-4 ml-2" />
+              </Link>
+            </div>
           </div>
         </div>
 
