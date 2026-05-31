@@ -115,7 +115,7 @@ export default function Home() {
             <div className="h-1 w-24 bg-primary" />
 
             <div className="flex flex-wrap gap-4 items-center">
-              <Link href="https://cool-contrast-formulario.vercel.app" target="_blank" className={cn("uppercase", buttonVariants({ size: "lg" }), "bg-gradient-to-r from-primary to-accent border-none text-white shadow-lg hover:opacity-90")}>
+              <Link href="https://cool-contrast-formulario-42i2.vercel.app" target="_blank" className={cn("uppercase", buttonVariants({ size: "lg" }), "bg-gradient-to-r from-primary to-accent border-none text-white shadow-lg hover:opacity-90")}>
                 Haz el Diagnóstico Interactivo <Bot className="size-4 ml-2" />
               </Link>
               <Link href="#contacto" className={cn("uppercase", buttonVariants({ variant: "outline", size: "lg" }), "border-primary/30")}>
@@ -328,7 +328,7 @@ export default function Home() {
             </ul>
             
             <div className="pt-4">
-              <Link href="https://cool-contrast-formulario.vercel.app" target="_blank" className={cn("uppercase", buttonVariants({ size: "lg" }), "bg-gradient-to-r from-primary to-accent border-none text-white shadow-lg hover:opacity-90 w-full sm:w-auto")}>
+              <Link href="https://cool-contrast-formulario-42i2.vercel.app" target="_blank" className={cn("uppercase", buttonVariants({ size: "lg" }), "bg-gradient-to-r from-primary to-accent border-none text-white shadow-lg hover:opacity-90 w-full sm:w-auto")}>
                 Inicia tu Diagnóstico <Bot className="size-4 ml-2" />
               </Link>
             </div>
